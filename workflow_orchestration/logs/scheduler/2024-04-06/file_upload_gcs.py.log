@@ -1,0 +1,985 @@
+[2024-04-06 20:44:58,122] {processor.py:163} INFO - Started process (PID=10078) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:44:58,127] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:44:58,129] {logging_mixin.py:109} INFO - [2024-04-06 20:44:58,129] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:44:58,153] {logging_mixin.py:109} INFO - [2024-04-06 20:44:58,150] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 21
+    def upload_to_gcs(bucket. object_name, local_file):
+                            ^
+SyntaxError: invalid syntax
+[2024-04-06 20:44:58,184] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:44:58,203] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.088 seconds
+[2024-04-06 20:45:28,404] {processor.py:163} INFO - Started process (PID=10100) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:45:28,406] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:45:28,409] {logging_mixin.py:109} INFO - [2024-04-06 20:45:28,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:45:28,427] {logging_mixin.py:109} INFO - [2024-04-06 20:45:28,425] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 21
+    def upload_to_gcs(bucket. object_name, local_file):
+                            ^
+SyntaxError: invalid syntax
+[2024-04-06 20:45:28,452] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:45:28,465] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.065 seconds
+[2024-04-06 20:45:58,611] {processor.py:163} INFO - Started process (PID=10120) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:45:58,614] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:45:58,616] {logging_mixin.py:109} INFO - [2024-04-06 20:45:58,615] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:45:58,664] {logging_mixin.py:109} INFO - [2024-04-06 20:45:58,663] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 21
+    def upload_to_gcs(bucket. object_name, local_file):
+                            ^
+SyntaxError: invalid syntax
+[2024-04-06 20:45:58,713] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:45:58,741] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.134 seconds
+[2024-04-06 20:46:28,872] {processor.py:163} INFO - Started process (PID=10141) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:46:28,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:46:28,879] {logging_mixin.py:109} INFO - [2024-04-06 20:46:28,878] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:46:28,898] {logging_mixin.py:109} INFO - [2024-04-06 20:46:28,897] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 21
+    def upload_to_gcs(bucket. object_name, local_file):
+                            ^
+SyntaxError: invalid syntax
+[2024-04-06 20:46:28,925] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:46:28,939] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.071 seconds
+[2024-04-06 20:46:51,458] {processor.py:163} INFO - Started process (PID=10162) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:46:51,463] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:46:51,466] {logging_mixin.py:109} INFO - [2024-04-06 20:46:51,466] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:46:51,502] {logging_mixin.py:109} INFO - [2024-04-06 20:46:51,500] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 21
+    def upload_to_gcs(bucket. object_name, local_file):
+                            ^
+SyntaxError: invalid syntax
+[2024-04-06 20:46:51,543] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:46:51,566] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.114 seconds
+[2024-04-06 20:47:21,672] {processor.py:163} INFO - Started process (PID=10183) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:47:21,675] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:47:21,677] {logging_mixin.py:109} INFO - [2024-04-06 20:47:21,677] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:47:21,705] {logging_mixin.py:109} INFO - [2024-04-06 20:47:21,704] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 21
+    def upload_to_gcs(bucket. object_name, local_file):
+                            ^
+SyntaxError: invalid syntax
+[2024-04-06 20:47:21,733] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:47:21,748] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.081 seconds
+[2024-04-06 20:47:36,850] {processor.py:163} INFO - Started process (PID=10194) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:47:36,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:47:36,856] {logging_mixin.py:109} INFO - [2024-04-06 20:47:36,856] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:47:36,875] {logging_mixin.py:109} INFO - [2024-04-06 20:47:36,873] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 41
+    schedule = "@daily"
+           ^
+SyntaxError: invalid syntax
+[2024-04-06 20:47:36,902] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:47:36,916] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.072 seconds
+[2024-04-06 20:48:07,009] {processor.py:163} INFO - Started process (PID=10215) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:48:07,012] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:48:07,014] {logging_mixin.py:109} INFO - [2024-04-06 20:48:07,014] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:48:07,033] {logging_mixin.py:109} INFO - [2024-04-06 20:48:07,032] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 41
+    schedule = "@daily"
+           ^
+SyntaxError: invalid syntax
+[2024-04-06 20:48:07,060] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:48:07,078] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.075 seconds
+[2024-04-06 20:48:37,307] {processor.py:163} INFO - Started process (PID=10235) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:48:37,311] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:48:37,316] {logging_mixin.py:109} INFO - [2024-04-06 20:48:37,316] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:48:37,340] {logging_mixin.py:109} INFO - [2024-04-06 20:48:37,338] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 41
+    schedule = "@daily"
+           ^
+SyntaxError: invalid syntax
+[2024-04-06 20:48:37,370] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:48:37,390] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.090 seconds
+[2024-04-06 20:49:00,823] {processor.py:163} INFO - Started process (PID=10256) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:00,826] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:49:00,829] {logging_mixin.py:109} INFO - [2024-04-06 20:49:00,828] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:00,846] {logging_mixin.py:109} INFO - [2024-04-06 20:49:00,845] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 55
+    python_callable = upload_to_gcs
+                  ^
+SyntaxError: invalid syntax
+[2024-04-06 20:49:00,874] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:00,898] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.079 seconds
+[2024-04-06 20:49:30,998] {processor.py:163} INFO - Started process (PID=10276) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:31,002] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:49:31,007] {logging_mixin.py:109} INFO - [2024-04-06 20:49:31,007] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:31,031] {logging_mixin.py:109} INFO - [2024-04-06 20:49:31,029] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 55
+    python_callable = upload_to_gcs
+                  ^
+SyntaxError: invalid syntax
+[2024-04-06 20:49:31,059] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:31,075] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.083 seconds
+[2024-04-06 20:49:47,164] {processor.py:163} INFO - Started process (PID=10288) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:47,167] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:49:47,169] {logging_mixin.py:109} INFO - [2024-04-06 20:49:47,169] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:47,188] {logging_mixin.py:109} INFO - [2024-04-06 20:49:47,187] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 58
+    "object_name": f"raw/{dataset_file}",
+                ^
+SyntaxError: invalid syntax
+[2024-04-06 20:49:47,209] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:49:47,222] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.063 seconds
+[2024-04-06 20:50:17,400] {processor.py:163} INFO - Started process (PID=10318) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:50:17,403] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:50:17,405] {logging_mixin.py:109} INFO - [2024-04-06 20:50:17,405] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:50:17,425] {logging_mixin.py:109} INFO - [2024-04-06 20:50:17,424] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 58
+    "object_name": f"raw/{dataset_file}",
+                ^
+SyntaxError: invalid syntax
+[2024-04-06 20:50:17,450] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:50:17,464] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.068 seconds
+[2024-04-06 20:50:47,647] {processor.py:163} INFO - Started process (PID=10341) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:50:47,652] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:50:47,655] {logging_mixin.py:109} INFO - [2024-04-06 20:50:47,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:50:47,676] {logging_mixin.py:109} INFO - [2024-04-06 20:50:47,675] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 58
+    "object_name": f"raw/{dataset_file}",
+                ^
+SyntaxError: invalid syntax
+[2024-04-06 20:50:47,714] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:50:47,726] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.084 seconds
+[2024-04-06 20:51:04,076] {processor.py:163} INFO - Started process (PID=10352) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:51:04,080] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:51:04,083] {logging_mixin.py:109} INFO - [2024-04-06 20:51:04,082] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:51:09,364] {logging_mixin.py:109} INFO - [2024-04-06 20:51:09,354] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 45, in <module>
+    tags=['dtc-de'],
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2024-04-06 20:51:09,394] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:51:09,426] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 5.354 seconds
+[2024-04-06 20:51:39,555] {processor.py:163} INFO - Started process (PID=10375) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:51:39,558] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:51:39,560] {logging_mixin.py:109} INFO - [2024-04-06 20:51:39,560] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:51:41,106] {logging_mixin.py:109} INFO - [2024-04-06 20:51:41,098] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 45, in <module>
+    tags=['dtc-de'],
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2024-04-06 20:51:41,145] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:51:41,242] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.693 seconds
+[2024-04-06 20:52:11,543] {processor.py:163} INFO - Started process (PID=10407) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:11,546] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:52:11,548] {logging_mixin.py:109} INFO - [2024-04-06 20:52:11,548] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:13,564] {logging_mixin.py:109} INFO - [2024-04-06 20:52:13,559] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 45, in <module>
+    tags=['dtc-de'],
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2024-04-06 20:52:13,584] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:13,600] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.066 seconds
+[2024-04-06 20:52:43,699] {processor.py:163} INFO - Started process (PID=10435) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:43,703] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:52:43,706] {logging_mixin.py:109} INFO - [2024-04-06 20:52:43,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:45,360] {logging_mixin.py:109} INFO - [2024-04-06 20:52:45,355] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 45, in <module>
+    tags=['dtc-de'],
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2024-04-06 20:52:45,381] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:45,399] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.706 seconds
+[2024-04-06 20:52:56,208] {processor.py:163} INFO - Started process (PID=10440) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:56,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:52:56,213] {logging_mixin.py:109} INFO - [2024-04-06 20:52:56,213] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:58,280] {logging_mixin.py:109} INFO - [2024-04-06 20:52:58,264] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 45, in <module>
+    tags=['dtc-de'],
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2024-04-06 20:52:58,332] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:52:58,408] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.204 seconds
+[2024-04-06 20:53:28,607] {processor.py:163} INFO - Started process (PID=10474) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:53:28,610] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:53:28,612] {logging_mixin.py:109} INFO - [2024-04-06 20:53:28,612] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:53:30,118] {logging_mixin.py:109} INFO - [2024-04-06 20:53:30,111] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 45, in <module>
+    tags=['dtc-de'],
+TypeError: __init__() got an unexpected keyword argument 'schedule'
+[2024-04-06 20:53:30,146] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:53:30,166] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.566 seconds
+[2024-04-06 20:53:41,300] {processor.py:163} INFO - Started process (PID=10488) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:53:41,303] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:53:41,309] {logging_mixin.py:109} INFO - [2024-04-06 20:53:41,308] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:53:42,649] {logging_mixin.py:109} INFO - [2024-04-06 20:53:42,632] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 50, in <module>
+    bash_commend=f"curl -sSL {dataset_url} > {path_to_local}/{dataset_file}"
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 177, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['bash_command'] is required
+[2024-04-06 20:53:42,676] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:53:42,688] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.394 seconds
+[2024-04-06 20:54:12,832] {processor.py:163} INFO - Started process (PID=10513) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:12,835] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:54:12,838] {logging_mixin.py:109} INFO - [2024-04-06 20:54:12,838] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:14,969] {logging_mixin.py:109} INFO - [2024-04-06 20:54:14,933] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 50, in <module>
+    bash_commend=f"curl -sSL {dataset_url} > {path_to_local}/{dataset_file}"
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 177, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['bash_command'] is required
+[2024-04-06 20:54:15,042] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:15,096] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.271 seconds
+[2024-04-06 20:54:45,260] {processor.py:163} INFO - Started process (PID=10538) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:45,263] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:54:45,265] {logging_mixin.py:109} INFO - [2024-04-06 20:54:45,265] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:46,619] {logging_mixin.py:109} INFO - [2024-04-06 20:54:46,613] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 50, in <module>
+    bash_commend=f"curl -sSL {dataset_url} > {path_to_local}/{dataset_file}"
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 177, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['bash_command'] is required
+[2024-04-06 20:54:46,640] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:46,659] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.407 seconds
+[2024-04-06 20:54:49,904] {processor.py:163} INFO - Started process (PID=10552) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:49,907] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:54:49,910] {logging_mixin.py:109} INFO - [2024-04-06 20:54:49,909] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:52,220] {logging_mixin.py:109} INFO - [2024-04-06 20:54:52,213] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/file_upload_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/file_upload_gcs.py", line 50, in <module>
+    bash_command=f"curl -sSL {dataset_url} > {path_to_local}/{dataset_file}"
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 143, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 547, in __init__
+    validate_key(task_id)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    "dots and underscores exclusively".format(k=k)
+airflow.exceptions.AirflowException: The key (download _dataset_task) has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-04-06 20:54:52,251] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:54:52,270] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.371 seconds
+[2024-04-06 20:55:17,458] {processor.py:163} INFO - Started process (PID=10568) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:55:17,461] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:55:17,462] {logging_mixin.py:109} INFO - [2024-04-06 20:55:17,462] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:55:19,129] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:55:29,736] {logging_mixin.py:109} INFO - [2024-04-06 20:55:29,735] {manager.py:496} INFO - Created Permission View: can read on DAG:data_ingestion_gcs_dag
+[2024-04-06 20:55:29,909] {logging_mixin.py:109} INFO - [2024-04-06 20:55:29,909] {manager.py:496} INFO - Created Permission View: can edit on DAG:data_ingestion_gcs_dag
+[2024-04-06 20:55:29,943] {logging_mixin.py:109} INFO - [2024-04-06 20:55:29,940] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:55:30,055] {logging_mixin.py:109} INFO - [2024-04-06 20:55:30,040] {dag.py:2415} INFO - Creating ORM DAG for data_ingestion_gcs_dag
+[2024-04-06 20:55:30,175] {logging_mixin.py:109} INFO - [2024-04-06 20:55:30,175] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-05 00:00:00+00:00
+[2024-04-06 20:55:30,359] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 12.899 seconds
+[2024-04-06 20:55:40,459] {processor.py:163} INFO - Started process (PID=10593) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:55:40,462] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:55:40,464] {logging_mixin.py:109} INFO - [2024-04-06 20:55:40,464] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:55:41,822] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:55:41,838] {logging_mixin.py:109} INFO - [2024-04-06 20:55:41,830] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:55:41,877] {logging_mixin.py:109} INFO - [2024-04-06 20:55:41,877] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-05 00:00:00+00:00
+[2024-04-06 20:55:42,169] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.715 seconds
+[2024-04-06 20:56:12,316] {processor.py:163} INFO - Started process (PID=10617) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:56:12,318] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:56:12,320] {logging_mixin.py:109} INFO - [2024-04-06 20:56:12,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:56:13,241] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:56:13,256] {logging_mixin.py:109} INFO - [2024-04-06 20:56:13,255] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:56:13,281] {logging_mixin.py:109} INFO - [2024-04-06 20:56:13,281] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-05 00:00:00+00:00
+[2024-04-06 20:56:13,297] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.988 seconds
+[2024-04-06 20:56:43,572] {processor.py:163} INFO - Started process (PID=10641) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:56:43,577] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:56:43,581] {logging_mixin.py:109} INFO - [2024-04-06 20:56:43,580] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:56:45,337] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:56:45,352] {logging_mixin.py:109} INFO - [2024-04-06 20:56:45,350] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:56:45,388] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.821 seconds
+[2024-04-06 20:57:15,615] {processor.py:163} INFO - Started process (PID=10665) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:57:15,619] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:57:15,623] {logging_mixin.py:109} INFO - [2024-04-06 20:57:15,622] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:57:18,043] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:57:18,069] {logging_mixin.py:109} INFO - [2024-04-06 20:57:18,067] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:57:18,120] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.511 seconds
+[2024-04-06 20:57:49,140] {processor.py:163} INFO - Started process (PID=10690) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:57:49,201] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:57:49,269] {logging_mixin.py:109} INFO - [2024-04-06 20:57:49,269] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:57:57,560] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:57:57,701] {logging_mixin.py:109} INFO - [2024-04-06 20:57:57,687] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:57:57,957] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 8.839 seconds
+[2024-04-06 20:58:28,928] {processor.py:163} INFO - Started process (PID=10715) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:58:28,946] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:58:28,977] {logging_mixin.py:109} INFO - [2024-04-06 20:58:28,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:58:35,900] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:58:36,036] {logging_mixin.py:109} INFO - [2024-04-06 20:58:36,033] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:58:36,567] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 7.659 seconds
+[2024-04-06 20:59:07,277] {processor.py:163} INFO - Started process (PID=10737) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:59:07,342] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:59:07,423] {logging_mixin.py:109} INFO - [2024-04-06 20:59:07,410] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:59:16,790] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:59:16,932] {logging_mixin.py:109} INFO - [2024-04-06 20:59:16,930] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:59:17,206] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 10.009 seconds
+[2024-04-06 20:59:48,243] {processor.py:163} INFO - Started process (PID=10754) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:59:48,257] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 20:59:48,260] {logging_mixin.py:109} INFO - [2024-04-06 20:59:48,260] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:59:54,974] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 20:59:55,198] {logging_mixin.py:109} INFO - [2024-04-06 20:59:55,187] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 20:59:55,915] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 7.685 seconds
+[2024-04-06 21:00:26,975] {processor.py:163} INFO - Started process (PID=10784) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:00:26,993] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:00:27,008] {logging_mixin.py:109} INFO - [2024-04-06 21:00:27,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:00:28,955] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:00:28,977] {logging_mixin.py:109} INFO - [2024-04-06 21:00:28,975] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:00:29,028] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.071 seconds
+[2024-04-06 21:00:59,442] {processor.py:163} INFO - Started process (PID=10803) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:00:59,449] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:00:59,452] {logging_mixin.py:109} INFO - [2024-04-06 21:00:59,452] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:01:01,381] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:01:01,410] {logging_mixin.py:109} INFO - [2024-04-06 21:01:01,408] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:01:01,463] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.029 seconds
+[2024-04-06 21:01:31,786] {processor.py:163} INFO - Started process (PID=10827) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:01:31,796] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:01:31,805] {logging_mixin.py:109} INFO - [2024-04-06 21:01:31,805] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:01:35,035] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:01:35,064] {logging_mixin.py:109} INFO - [2024-04-06 21:01:35,062] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:01:35,125] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.346 seconds
+[2024-04-06 21:02:05,328] {processor.py:163} INFO - Started process (PID=10852) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:02:05,341] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:02:05,356] {logging_mixin.py:109} INFO - [2024-04-06 21:02:05,356] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:02:10,209] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:02:10,302] {logging_mixin.py:109} INFO - [2024-04-06 21:02:10,298] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:02:10,486] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 5.176 seconds
+[2024-04-06 21:02:40,865] {processor.py:163} INFO - Started process (PID=10873) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:02:40,870] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:02:40,873] {logging_mixin.py:109} INFO - [2024-04-06 21:02:40,873] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:02:47,479] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:02:47,615] {logging_mixin.py:109} INFO - [2024-04-06 21:02:47,608] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:02:47,977] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 7.119 seconds
+[2024-04-06 21:03:18,552] {processor.py:163} INFO - Started process (PID=10890) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:03:18,556] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:03:18,570] {logging_mixin.py:109} INFO - [2024-04-06 21:03:18,558] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:03:19,939] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:03:19,961] {logging_mixin.py:109} INFO - [2024-04-06 21:03:19,958] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:03:20,003] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.469 seconds
+[2024-04-06 21:03:50,079] {processor.py:163} INFO - Started process (PID=10915) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:03:50,084] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:03:50,086] {logging_mixin.py:109} INFO - [2024-04-06 21:03:50,086] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:03:52,075] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:03:52,108] {logging_mixin.py:109} INFO - [2024-04-06 21:03:52,104] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:03:52,165] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.094 seconds
+[2024-04-06 21:04:22,652] {processor.py:163} INFO - Started process (PID=10939) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:04:22,656] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:04:22,659] {logging_mixin.py:109} INFO - [2024-04-06 21:04:22,659] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:04:24,587] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:04:24,646] {logging_mixin.py:109} INFO - [2024-04-06 21:04:24,637] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:04:24,808] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.161 seconds
+[2024-04-06 21:04:54,997] {processor.py:163} INFO - Started process (PID=10964) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:04:55,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:04:55,003] {logging_mixin.py:109} INFO - [2024-04-06 21:04:55,002] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:04:58,915] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:04:58,997] {logging_mixin.py:109} INFO - [2024-04-06 21:04:58,985] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:04:59,168] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 4.177 seconds
+[2024-04-06 21:05:30,209] {processor.py:163} INFO - Started process (PID=10989) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:05:30,213] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:05:30,216] {logging_mixin.py:109} INFO - [2024-04-06 21:05:30,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:05:32,060] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:05:32,085] {logging_mixin.py:109} INFO - [2024-04-06 21:05:32,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:05:32,136] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.948 seconds
+[2024-04-06 21:06:02,410] {processor.py:163} INFO - Started process (PID=11013) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:06:02,430] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:06:02,434] {logging_mixin.py:109} INFO - [2024-04-06 21:06:02,434] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:06:04,889] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:06:04,912] {logging_mixin.py:109} INFO - [2024-04-06 21:06:04,909] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:06:04,949] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.552 seconds
+[2024-04-06 21:06:31,254] {processor.py:163} INFO - Started process (PID=11028) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:06:31,258] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:06:31,262] {logging_mixin.py:109} INFO - [2024-04-06 21:06:31,261] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:06:36,684] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:06:39,541] {logging_mixin.py:109} INFO - [2024-04-06 21:06:39,539] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:06:39,629] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 8.387 seconds
+[2024-04-06 21:07:10,094] {processor.py:163} INFO - Started process (PID=11062) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:07:10,110] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:07:10,113] {logging_mixin.py:109} INFO - [2024-04-06 21:07:10,113] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:07:13,605] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:07:13,644] {logging_mixin.py:109} INFO - [2024-04-06 21:07:13,641] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:07:13,714] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.627 seconds
+[2024-04-06 21:07:43,919] {processor.py:163} INFO - Started process (PID=11077) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:07:43,922] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:07:43,924] {logging_mixin.py:109} INFO - [2024-04-06 21:07:43,924] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:07:46,043] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:07:46,073] {logging_mixin.py:109} INFO - [2024-04-06 21:07:46,070] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:07:46,137] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.224 seconds
+[2024-04-06 21:08:16,654] {processor.py:163} INFO - Started process (PID=11102) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:08:16,725] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:08:16,750] {logging_mixin.py:109} INFO - [2024-04-06 21:08:16,750] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:08:22,872] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:08:22,912] {logging_mixin.py:109} INFO - [2024-04-06 21:08:22,909] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:08:22,981] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 6.315 seconds
+[2024-04-06 21:08:53,711] {processor.py:163} INFO - Started process (PID=11127) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:08:53,750] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:08:53,767] {logging_mixin.py:109} INFO - [2024-04-06 21:08:53,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:09:00,067] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:09:00,125] {logging_mixin.py:109} INFO - [2024-04-06 21:09:00,121] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:09:00,210] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 6.565 seconds
+[2024-04-06 21:09:30,752] {processor.py:163} INFO - Started process (PID=11153) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:09:30,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:09:30,786] {logging_mixin.py:109} INFO - [2024-04-06 21:09:30,784] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:09:35,947] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:09:36,084] {logging_mixin.py:109} INFO - [2024-04-06 21:09:36,074] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:09:36,382] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 5.668 seconds
+[2024-04-06 21:10:07,089] {processor.py:163} INFO - Started process (PID=11177) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:10:07,093] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:10:07,103] {logging_mixin.py:109} INFO - [2024-04-06 21:10:07,102] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:10:10,949] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:10:10,988] {logging_mixin.py:109} INFO - [2024-04-06 21:10:10,986] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:10:11,073] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.997 seconds
+[2024-04-06 21:10:41,882] {processor.py:163} INFO - Started process (PID=11201) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:10:41,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:10:41,896] {logging_mixin.py:109} INFO - [2024-04-06 21:10:41,896] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:10:46,093] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:10:46,135] {logging_mixin.py:109} INFO - [2024-04-06 21:10:46,124] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:10:46,275] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 4.411 seconds
+[2024-04-06 21:11:16,647] {processor.py:163} INFO - Started process (PID=11217) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:11:16,653] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:11:16,661] {logging_mixin.py:109} INFO - [2024-04-06 21:11:16,661] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:11:18,789] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:11:18,833] {logging_mixin.py:109} INFO - [2024-04-06 21:11:18,825] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:11:18,922] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.285 seconds
+[2024-04-06 21:11:49,134] {processor.py:163} INFO - Started process (PID=11240) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:11:49,139] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:11:49,150] {logging_mixin.py:109} INFO - [2024-04-06 21:11:49,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:11:51,492] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:11:51,568] {logging_mixin.py:109} INFO - [2024-04-06 21:11:51,566] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:11:51,678] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.551 seconds
+[2024-04-06 21:12:21,846] {processor.py:163} INFO - Started process (PID=11265) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:12:21,848] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:12:21,851] {logging_mixin.py:109} INFO - [2024-04-06 21:12:21,850] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:12:23,068] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:12:23,093] {logging_mixin.py:109} INFO - [2024-04-06 21:12:23,091] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:12:23,157] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.316 seconds
+[2024-04-06 21:12:53,362] {processor.py:163} INFO - Started process (PID=11289) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:12:53,365] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:12:53,371] {logging_mixin.py:109} INFO - [2024-04-06 21:12:53,371] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:12:56,048] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:12:56,081] {logging_mixin.py:109} INFO - [2024-04-06 21:12:56,078] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:12:56,130] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.773 seconds
+[2024-04-06 21:13:26,571] {processor.py:163} INFO - Started process (PID=11314) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:13:26,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:13:26,586] {logging_mixin.py:109} INFO - [2024-04-06 21:13:26,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:13:28,287] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:13:28,313] {logging_mixin.py:109} INFO - [2024-04-06 21:13:28,311] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:13:28,360] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.802 seconds
+[2024-04-06 21:13:59,622] {processor.py:163} INFO - Started process (PID=11338) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:13:59,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:13:59,645] {logging_mixin.py:109} INFO - [2024-04-06 21:13:59,645] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:14:05,728] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:14:05,866] {logging_mixin.py:109} INFO - [2024-04-06 21:14:05,864] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:14:06,062] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 6.452 seconds
+[2024-04-06 21:14:36,431] {processor.py:163} INFO - Started process (PID=11353) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:14:36,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:14:36,462] {logging_mixin.py:109} INFO - [2024-04-06 21:14:36,461] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:14:40,315] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:14:40,399] {logging_mixin.py:109} INFO - [2024-04-06 21:14:40,382] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:14:40,563] {logging_mixin.py:109} INFO - [2024-04-06 21:14:40,563] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:14:40,798] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 4.376 seconds
+[2024-04-06 21:15:11,917] {processor.py:163} INFO - Started process (PID=11378) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:15:11,935] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:15:11,952] {logging_mixin.py:109} INFO - [2024-04-06 21:15:11,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:15:20,052] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:15:20,159] {logging_mixin.py:109} INFO - [2024-04-06 21:15:20,144] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:15:20,281] {logging_mixin.py:109} INFO - [2024-04-06 21:15:20,281] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:15:20,502] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 8.680 seconds
+[2024-04-06 21:15:51,195] {processor.py:163} INFO - Started process (PID=11403) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:15:51,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:15:51,221] {logging_mixin.py:109} INFO - [2024-04-06 21:15:51,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:15:53,357] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:15:53,382] {logging_mixin.py:109} INFO - [2024-04-06 21:15:53,380] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:15:53,418] {logging_mixin.py:109} INFO - [2024-04-06 21:15:53,418] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:15:53,447] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.294 seconds
+[2024-04-06 21:16:23,823] {processor.py:163} INFO - Started process (PID=11426) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:16:23,832] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:16:23,836] {logging_mixin.py:109} INFO - [2024-04-06 21:16:23,836] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:16:27,194] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:16:27,383] {logging_mixin.py:109} INFO - [2024-04-06 21:16:27,333] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:16:27,490] {logging_mixin.py:109} INFO - [2024-04-06 21:16:27,489] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:16:27,559] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.744 seconds
+[2024-04-06 21:16:57,800] {processor.py:163} INFO - Started process (PID=11451) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:16:57,804] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:16:57,806] {logging_mixin.py:109} INFO - [2024-04-06 21:16:57,805] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:17:01,782] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:17:01,850] {logging_mixin.py:109} INFO - [2024-04-06 21:17:01,848] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:17:01,966] {logging_mixin.py:109} INFO - [2024-04-06 21:17:01,966] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:17:02,003] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 4.210 seconds
+[2024-04-06 21:17:32,212] {processor.py:163} INFO - Started process (PID=11466) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:17:32,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:17:32,221] {logging_mixin.py:109} INFO - [2024-04-06 21:17:32,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:17:33,551] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:17:33,572] {logging_mixin.py:109} INFO - [2024-04-06 21:17:33,570] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:17:33,618] {logging_mixin.py:109} INFO - [2024-04-06 21:17:33,618] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:17:33,636] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.429 seconds
+[2024-04-06 21:18:03,933] {processor.py:163} INFO - Started process (PID=11490) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:18:03,953] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:18:03,957] {logging_mixin.py:109} INFO - [2024-04-06 21:18:03,956] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:18:06,525] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:18:06,552] {logging_mixin.py:109} INFO - [2024-04-06 21:18:06,549] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:18:06,594] {logging_mixin.py:109} INFO - [2024-04-06 21:18:06,594] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:18:06,624] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.708 seconds
+[2024-04-06 21:20:51,789] {processor.py:163} INFO - Started process (PID=73) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:20:51,801] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:20:51,809] {logging_mixin.py:109} INFO - [2024-04-06 21:20:51,809] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:21:04,937] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:21:05,025] {logging_mixin.py:109} INFO - [2024-04-06 21:21:05,023] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:21:05,263] {logging_mixin.py:109} INFO - [2024-04-06 21:21:05,263] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:21:05,391] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 13.626 seconds
+[2024-04-06 21:21:37,144] {processor.py:163} INFO - Started process (PID=97) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:21:37,176] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:21:37,199] {logging_mixin.py:109} INFO - [2024-04-06 21:21:37,197] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:21:56,982] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:21:57,006] {logging_mixin.py:109} INFO - [2024-04-06 21:21:57,004] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:21:57,045] {logging_mixin.py:109} INFO - [2024-04-06 21:21:57,045] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:21:57,063] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 20.117 seconds
+[2024-04-06 21:22:27,258] {processor.py:163} INFO - Started process (PID=132) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:22:27,262] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:22:27,273] {logging_mixin.py:109} INFO - [2024-04-06 21:22:27,273] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:22:33,284] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:22:33,323] {logging_mixin.py:109} INFO - [2024-04-06 21:22:33,321] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:22:33,387] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 6.147 seconds
+[2024-04-06 21:23:04,050] {processor.py:163} INFO - Started process (PID=157) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:23:04,064] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:23:04,072] {logging_mixin.py:109} INFO - [2024-04-06 21:23:04,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:23:07,412] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:23:07,437] {logging_mixin.py:109} INFO - [2024-04-06 21:23:07,434] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:23:07,494] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.478 seconds
+[2024-04-06 21:23:37,643] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:23:37,646] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:23:37,649] {logging_mixin.py:109} INFO - [2024-04-06 21:23:37,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:23:39,326] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:23:39,387] {logging_mixin.py:109} INFO - [2024-04-06 21:23:39,373] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:23:39,614] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.977 seconds
+[2024-04-06 21:24:09,875] {processor.py:163} INFO - Started process (PID=206) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:24:09,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:24:09,886] {logging_mixin.py:109} INFO - [2024-04-06 21:24:09,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:24:11,902] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:24:11,945] {logging_mixin.py:109} INFO - [2024-04-06 21:24:11,943] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:24:12,048] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.178 seconds
+[2024-04-06 21:24:42,207] {processor.py:163} INFO - Started process (PID=231) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:24:42,210] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:24:42,211] {logging_mixin.py:109} INFO - [2024-04-06 21:24:42,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:24:43,584] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:24:43,601] {logging_mixin.py:109} INFO - [2024-04-06 21:24:43,599] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:24:43,633] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.432 seconds
+[2024-04-06 21:25:13,780] {processor.py:163} INFO - Started process (PID=265) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:25:13,787] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:25:13,793] {logging_mixin.py:109} INFO - [2024-04-06 21:25:13,793] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:25:18,187] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:25:18,470] {logging_mixin.py:109} INFO - [2024-04-06 21:25:18,425] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:25:19,214] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 5.443 seconds
+[2024-04-06 21:25:51,035] {processor.py:163} INFO - Started process (PID=287) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:25:51,045] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:25:51,059] {logging_mixin.py:109} INFO - [2024-04-06 21:25:51,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:25:56,409] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:25:56,562] {logging_mixin.py:109} INFO - [2024-04-06 21:25:56,546] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:25:56,928] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 5.916 seconds
+[2024-04-06 21:26:27,318] {processor.py:163} INFO - Started process (PID=305) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:26:27,323] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:26:27,326] {logging_mixin.py:109} INFO - [2024-04-06 21:26:27,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:26:30,432] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:26:30,466] {logging_mixin.py:109} INFO - [2024-04-06 21:26:30,460] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:26:30,530] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.229 seconds
+[2024-04-06 21:27:00,769] {processor.py:163} INFO - Started process (PID=330) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:27:00,773] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:27:00,777] {logging_mixin.py:109} INFO - [2024-04-06 21:27:00,776] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:27:01,979] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:27:02,032] {logging_mixin.py:109} INFO - [2024-04-06 21:27:02,029] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:27:02,116] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.353 seconds
+[2024-04-06 21:27:32,811] {processor.py:163} INFO - Started process (PID=355) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:27:32,814] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:27:32,817] {logging_mixin.py:109} INFO - [2024-04-06 21:27:32,817] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:27:34,720] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:27:34,787] {logging_mixin.py:109} INFO - [2024-04-06 21:27:34,781] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:27:34,866] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.067 seconds
+[2024-04-06 21:28:05,098] {processor.py:163} INFO - Started process (PID=379) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:28:05,101] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:28:05,104] {logging_mixin.py:109} INFO - [2024-04-06 21:28:05,103] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:28:08,659] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:28:08,818] {logging_mixin.py:109} INFO - [2024-04-06 21:28:08,805] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:28:08,946] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.855 seconds
+[2024-04-06 21:28:39,317] {processor.py:163} INFO - Started process (PID=394) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:28:39,320] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:28:39,322] {logging_mixin.py:109} INFO - [2024-04-06 21:28:39,322] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:28:41,358] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:28:41,403] {logging_mixin.py:109} INFO - [2024-04-06 21:28:41,398] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:28:41,457] {logging_mixin.py:109} INFO - [2024-04-06 21:28:41,457] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:28:41,541] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.230 seconds
+[2024-04-06 21:29:12,277] {processor.py:163} INFO - Started process (PID=419) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:29:12,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:29:12,283] {logging_mixin.py:109} INFO - [2024-04-06 21:29:12,283] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:29:15,489] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:29:15,516] {logging_mixin.py:109} INFO - [2024-04-06 21:29:15,514] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:29:15,570] {logging_mixin.py:109} INFO - [2024-04-06 21:29:15,570] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:29:15,652] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.386 seconds
+[2024-04-06 21:29:46,392] {processor.py:163} INFO - Started process (PID=445) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:29:46,450] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:29:46,483] {logging_mixin.py:109} INFO - [2024-04-06 21:29:46,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:29:50,783] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:29:50,823] {logging_mixin.py:109} INFO - [2024-04-06 21:29:50,821] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:29:50,893] {logging_mixin.py:109} INFO - [2024-04-06 21:29:50,892] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:29:50,932] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 4.560 seconds
+[2024-04-06 21:30:21,313] {processor.py:163} INFO - Started process (PID=470) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:30:21,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:30:21,359] {logging_mixin.py:109} INFO - [2024-04-06 21:30:21,359] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:30:24,380] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:30:24,426] {logging_mixin.py:109} INFO - [2024-04-06 21:30:24,423] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:30:24,508] {logging_mixin.py:109} INFO - [2024-04-06 21:30:24,508] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:30:24,535] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.242 seconds
+[2024-04-06 21:30:54,709] {processor.py:163} INFO - Started process (PID=495) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:30:54,725] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:30:54,727] {logging_mixin.py:109} INFO - [2024-04-06 21:30:54,727] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:30:57,178] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:30:57,210] {logging_mixin.py:109} INFO - [2024-04-06 21:30:57,208] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:30:57,249] {logging_mixin.py:109} INFO - [2024-04-06 21:30:57,249] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:30:57,280] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.577 seconds
+[2024-04-06 21:31:27,487] {processor.py:163} INFO - Started process (PID=519) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:31:27,506] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:31:27,509] {logging_mixin.py:109} INFO - [2024-04-06 21:31:27,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:31:29,900] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:31:29,922] {logging_mixin.py:109} INFO - [2024-04-06 21:31:29,920] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:31:29,955] {logging_mixin.py:109} INFO - [2024-04-06 21:31:29,954] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:31:29,974] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.494 seconds
+[2024-04-06 21:32:00,503] {processor.py:163} INFO - Started process (PID=545) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:32:00,567] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:32:00,578] {logging_mixin.py:109} INFO - [2024-04-06 21:32:00,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:32:09,597] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:32:09,923] {logging_mixin.py:109} INFO - [2024-04-06 21:32:09,909] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:32:10,107] {logging_mixin.py:109} INFO - [2024-04-06 21:32:10,106] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:32:10,251] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 9.762 seconds
+[2024-04-06 21:32:40,786] {processor.py:163} INFO - Started process (PID=571) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:32:40,811] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:32:40,816] {logging_mixin.py:109} INFO - [2024-04-06 21:32:40,816] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:32:45,151] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:32:45,187] {logging_mixin.py:109} INFO - [2024-04-06 21:32:45,185] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:32:45,295] {logging_mixin.py:109} INFO - [2024-04-06 21:32:45,294] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:32:45,418] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 4.656 seconds
+[2024-04-06 21:33:15,697] {processor.py:163} INFO - Started process (PID=594) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:33:15,701] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:33:15,704] {logging_mixin.py:109} INFO - [2024-04-06 21:33:15,704] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:33:19,187] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:33:19,222] {logging_mixin.py:109} INFO - [2024-04-06 21:33:19,219] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:33:19,265] {logging_mixin.py:109} INFO - [2024-04-06 21:33:19,264] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:33:19,286] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 3.601 seconds
+[2024-04-06 21:33:49,499] {processor.py:163} INFO - Started process (PID=609) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:33:49,503] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:33:49,505] {logging_mixin.py:109} INFO - [2024-04-06 21:33:49,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:33:50,738] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:33:50,762] {logging_mixin.py:109} INFO - [2024-04-06 21:33:50,759] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:33:50,796] {logging_mixin.py:109} INFO - [2024-04-06 21:33:50,795] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:33:50,815] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.320 seconds
+[2024-04-06 21:34:21,124] {processor.py:163} INFO - Started process (PID=633) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:34:21,130] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:34:21,135] {logging_mixin.py:109} INFO - [2024-04-06 21:34:21,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:34:23,326] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:34:23,350] {logging_mixin.py:109} INFO - [2024-04-06 21:34:23,347] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:34:23,395] {logging_mixin.py:109} INFO - [2024-04-06 21:34:23,394] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:34:23,423] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.309 seconds
+[2024-04-06 21:34:53,666] {processor.py:163} INFO - Started process (PID=657) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:34:53,686] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:34:53,706] {logging_mixin.py:109} INFO - [2024-04-06 21:34:53,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:34:56,437] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:34:56,479] {logging_mixin.py:109} INFO - [2024-04-06 21:34:56,477] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:34:56,546] {logging_mixin.py:109} INFO - [2024-04-06 21:34:56,546] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:34:56,581] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.938 seconds
+[2024-04-06 21:35:26,893] {processor.py:163} INFO - Started process (PID=682) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:35:26,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:35:26,899] {logging_mixin.py:109} INFO - [2024-04-06 21:35:26,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:35:28,418] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:35:28,442] {logging_mixin.py:109} INFO - [2024-04-06 21:35:28,440] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:35:28,468] {logging_mixin.py:109} INFO - [2024-04-06 21:35:28,468] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:35:28,487] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.607 seconds
+[2024-04-06 21:35:58,637] {processor.py:163} INFO - Started process (PID=707) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:35:58,640] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:35:58,643] {logging_mixin.py:109} INFO - [2024-04-06 21:35:58,643] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:35:59,722] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:35:59,740] {logging_mixin.py:109} INFO - [2024-04-06 21:35:59,739] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:35:59,763] {logging_mixin.py:109} INFO - [2024-04-06 21:35:59,763] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:35:59,777] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.148 seconds
+[2024-04-06 21:36:29,901] {processor.py:163} INFO - Started process (PID=742) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:36:29,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:36:29,906] {logging_mixin.py:109} INFO - [2024-04-06 21:36:29,906] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:36:31,290] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:36:31,311] {logging_mixin.py:109} INFO - [2024-04-06 21:36:31,309] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:36:31,349] {logging_mixin.py:109} INFO - [2024-04-06 21:36:31,349] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:36:31,394] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.500 seconds
+[2024-04-06 21:37:01,535] {processor.py:163} INFO - Started process (PID=767) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:37:01,538] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:37:01,540] {logging_mixin.py:109} INFO - [2024-04-06 21:37:01,540] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:37:02,460] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:37:02,473] {logging_mixin.py:109} INFO - [2024-04-06 21:37:02,472] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:37:02,495] {logging_mixin.py:109} INFO - [2024-04-06 21:37:02,495] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:37:02,510] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.980 seconds
+[2024-04-06 21:37:32,694] {processor.py:163} INFO - Started process (PID=792) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:37:32,697] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:37:32,700] {logging_mixin.py:109} INFO - [2024-04-06 21:37:32,700] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:37:33,928] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:37:33,983] {logging_mixin.py:109} INFO - [2024-04-06 21:37:33,980] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:37:34,061] {logging_mixin.py:109} INFO - [2024-04-06 21:37:34,060] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:37:34,083] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.394 seconds
+[2024-04-06 21:38:04,210] {processor.py:163} INFO - Started process (PID=825) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:38:04,214] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:38:04,216] {logging_mixin.py:109} INFO - [2024-04-06 21:38:04,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:38:05,319] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:38:05,335] {logging_mixin.py:109} INFO - [2024-04-06 21:38:05,333] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:38:05,362] {logging_mixin.py:109} INFO - [2024-04-06 21:38:05,361] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:38:05,377] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.175 seconds
+[2024-04-06 21:38:35,520] {processor.py:163} INFO - Started process (PID=850) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:38:35,541] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:38:35,560] {logging_mixin.py:109} INFO - [2024-04-06 21:38:35,560] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:38:37,685] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:38:37,701] {logging_mixin.py:109} INFO - [2024-04-06 21:38:37,699] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:38:37,732] {logging_mixin.py:109} INFO - [2024-04-06 21:38:37,732] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:38:37,749] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 2.242 seconds
+[2024-04-06 21:39:07,865] {processor.py:163} INFO - Started process (PID=874) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:39:07,868] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:39:07,870] {logging_mixin.py:109} INFO - [2024-04-06 21:39:07,869] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:39:08,729] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:39:08,743] {logging_mixin.py:109} INFO - [2024-04-06 21:39:08,742] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:39:08,764] {logging_mixin.py:109} INFO - [2024-04-06 21:39:08,764] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:39:08,785] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.923 seconds
+[2024-04-06 21:39:38,919] {processor.py:163} INFO - Started process (PID=909) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:39:38,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:39:38,934] {logging_mixin.py:109} INFO - [2024-04-06 21:39:38,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:39:40,673] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:39:40,695] {logging_mixin.py:109} INFO - [2024-04-06 21:39:40,693] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:39:40,732] {logging_mixin.py:109} INFO - [2024-04-06 21:39:40,732] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:39:40,751] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.838 seconds
+[2024-04-06 21:40:10,996] {processor.py:163} INFO - Started process (PID=934) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:40:10,999] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:40:11,001] {logging_mixin.py:109} INFO - [2024-04-06 21:40:11,000] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:40:12,033] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:40:12,049] {logging_mixin.py:109} INFO - [2024-04-06 21:40:12,047] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:40:12,077] {logging_mixin.py:109} INFO - [2024-04-06 21:40:12,076] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:40:12,090] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.100 seconds
+[2024-04-06 21:40:42,137] {processor.py:163} INFO - Started process (PID=958) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:40:42,140] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:40:42,141] {logging_mixin.py:109} INFO - [2024-04-06 21:40:42,141] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:40:43,124] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:40:43,137] {logging_mixin.py:109} INFO - [2024-04-06 21:40:43,136] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:40:43,159] {logging_mixin.py:109} INFO - [2024-04-06 21:40:43,159] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:40:43,172] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.039 seconds
+[2024-04-06 21:41:13,369] {processor.py:163} INFO - Started process (PID=992) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:41:13,371] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:41:13,372] {logging_mixin.py:109} INFO - [2024-04-06 21:41:13,372] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:41:14,584] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:41:14,603] {logging_mixin.py:109} INFO - [2024-04-06 21:41:14,601] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:41:14,642] {logging_mixin.py:109} INFO - [2024-04-06 21:41:14,642] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:41:14,664] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.299 seconds
+[2024-04-06 21:41:44,797] {processor.py:163} INFO - Started process (PID=1017) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:41:44,800] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:41:44,801] {logging_mixin.py:109} INFO - [2024-04-06 21:41:44,801] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:41:46,024] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:41:46,046] {logging_mixin.py:109} INFO - [2024-04-06 21:41:46,043] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:41:46,073] {logging_mixin.py:109} INFO - [2024-04-06 21:41:46,073] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:41:46,093] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.302 seconds
+[2024-04-06 21:42:16,237] {processor.py:163} INFO - Started process (PID=1042) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:42:16,240] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:42:16,242] {logging_mixin.py:109} INFO - [2024-04-06 21:42:16,241] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:42:17,376] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:42:17,393] {logging_mixin.py:109} INFO - [2024-04-06 21:42:17,391] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:42:17,421] {logging_mixin.py:109} INFO - [2024-04-06 21:42:17,421] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:42:17,435] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.204 seconds
+[2024-04-06 21:42:47,563] {processor.py:163} INFO - Started process (PID=1077) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:42:47,566] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:42:47,567] {logging_mixin.py:109} INFO - [2024-04-06 21:42:47,567] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:42:48,551] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:42:48,564] {logging_mixin.py:109} INFO - [2024-04-06 21:42:48,563] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:42:48,585] {logging_mixin.py:109} INFO - [2024-04-06 21:42:48,585] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:42:48,598] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.039 seconds
+[2024-04-06 21:43:18,707] {processor.py:163} INFO - Started process (PID=1102) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:43:18,710] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:43:18,711] {logging_mixin.py:109} INFO - [2024-04-06 21:43:18,711] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:43:19,558] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:43:19,572] {logging_mixin.py:109} INFO - [2024-04-06 21:43:19,571] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:43:19,593] {logging_mixin.py:109} INFO - [2024-04-06 21:43:19,593] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:43:19,609] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.907 seconds
+[2024-04-06 21:43:49,744] {processor.py:163} INFO - Started process (PID=1137) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:43:49,747] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:43:49,749] {logging_mixin.py:109} INFO - [2024-04-06 21:43:49,749] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:43:50,936] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:43:50,952] {logging_mixin.py:109} INFO - [2024-04-06 21:43:50,951] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:43:50,978] {logging_mixin.py:109} INFO - [2024-04-06 21:43:50,978] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:43:50,998] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.259 seconds
+[2024-04-06 21:44:21,128] {processor.py:163} INFO - Started process (PID=1162) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:44:21,132] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:44:21,134] {logging_mixin.py:109} INFO - [2024-04-06 21:44:21,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:44:22,312] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:44:22,332] {logging_mixin.py:109} INFO - [2024-04-06 21:44:22,331] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:44:22,358] {logging_mixin.py:109} INFO - [2024-04-06 21:44:22,358] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:44:22,374] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.252 seconds
+[2024-04-06 21:44:52,486] {processor.py:163} INFO - Started process (PID=1186) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:44:52,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:44:52,491] {logging_mixin.py:109} INFO - [2024-04-06 21:44:52,491] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:44:53,347] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:44:53,361] {logging_mixin.py:109} INFO - [2024-04-06 21:44:53,360] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:44:53,383] {logging_mixin.py:109} INFO - [2024-04-06 21:44:53,383] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:44:53,396] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 0.914 seconds
+[2024-04-06 21:45:23,514] {processor.py:163} INFO - Started process (PID=1211) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:45:23,516] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:45:23,518] {logging_mixin.py:109} INFO - [2024-04-06 21:45:23,517] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:45:24,554] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:45:24,568] {logging_mixin.py:109} INFO - [2024-04-06 21:45:24,566] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:45:24,594] {logging_mixin.py:109} INFO - [2024-04-06 21:45:24,594] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:45:24,608] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.098 seconds
+[2024-04-06 21:45:54,682] {processor.py:163} INFO - Started process (PID=1246) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:45:54,685] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:45:54,687] {logging_mixin.py:109} INFO - [2024-04-06 21:45:54,687] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:45:55,912] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:45:55,928] {logging_mixin.py:109} INFO - [2024-04-06 21:45:55,927] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:45:55,954] {logging_mixin.py:109} INFO - [2024-04-06 21:45:55,954] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:45:55,968] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.290 seconds
+[2024-04-06 21:46:26,087] {processor.py:163} INFO - Started process (PID=1269) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:46:26,091] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:46:26,094] {logging_mixin.py:109} INFO - [2024-04-06 21:46:26,094] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:46:27,587] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:46:27,602] {logging_mixin.py:109} INFO - [2024-04-06 21:46:27,601] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:46:27,627] {logging_mixin.py:109} INFO - [2024-04-06 21:46:27,627] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:46:27,640] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.559 seconds
+[2024-04-06 21:46:57,757] {processor.py:163} INFO - Started process (PID=1293) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:46:57,760] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:46:57,762] {logging_mixin.py:109} INFO - [2024-04-06 21:46:57,762] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:46:58,784] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:46:58,799] {logging_mixin.py:109} INFO - [2024-04-06 21:46:58,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:46:58,821] {logging_mixin.py:109} INFO - [2024-04-06 21:46:58,821] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:46:58,835] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.082 seconds
+[2024-04-06 21:47:28,942] {processor.py:163} INFO - Started process (PID=1328) to work on /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:47:28,947] {processor.py:642} INFO - Processing file /opt/airflow/dags/file_upload_gcs.py for tasks to queue
+[2024-04-06 21:47:28,950] {logging_mixin.py:109} INFO - [2024-04-06 21:47:28,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:47:30,616] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/file_upload_gcs.py
+[2024-04-06 21:47:30,669] {logging_mixin.py:109} INFO - [2024-04-06 21:47:30,666] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-04-06 21:47:30,725] {logging_mixin.py:109} INFO - [2024-04-06 21:47:30,724] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-04-06T00:00:00+00:00
+[2024-04-06 21:47:30,859] {processor.py:171} INFO - Processing /opt/airflow/dags/file_upload_gcs.py took 1.922 seconds
